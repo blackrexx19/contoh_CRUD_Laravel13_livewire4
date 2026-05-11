@@ -20,34 +20,34 @@ setelah melakukan clone
   ```
 - Setting env dengan mengatur database
   - jika mysql
-        ```
-        DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=namadatabase
-        DB_USERNAME=usermysql
-        DB_PASSWORD=passwordmysql
-        ```
+    ```bash
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=namadatabase
+    DB_USERNAME=usermysql
+    DB_PASSWORD=passwordmysql
+    ```
   - jika postgre
-        ```
-        DB_CONNECTION=pgsql
-        DB_HOST=127.0.0.1
-        DB_PORT=5432
-        DB_DATABASE=namadatabase
-        DB_USERNAME=userpostgre
-        DB_PASSWORD=passwordpostgre
-        ```
+    ```
+    DB_CONNECTION=pgsql
+    DB_HOST=127.0.0.1
+    DB_PORT=5432
+    DB_DATABASE=namadatabase
+    DB_USERNAME=userpostgre
+    DB_PASSWORD=passwordpostgre
+    ```
   - jika untuk docker
-        ```
-        DB_CONNECTION=pgsql
-        DB_HOST=127.0.0.1
-        DB_PORT=5432
-        DB_DATABASE=namadatabase
-        DB_USERNAME=userpostgre
-        DB_PASSWORD=passwordpostgre
-        CACHE_DRIVER=file
-        SESSION_DRIVER=file
-        ```
+    ```
+    DB_CONNECTION=pgsql
+    DB_HOST=127.0.0.1
+    DB_PORT=5432
+    DB_DATABASE=namadatabase
+    DB_USERNAME=userpostgre
+    DB_PASSWORD=passwordpostgre
+    CACHE_DRIVER=file
+    SESSION_DRIVER=file
+    ```
 - Migrasi database
   ```
   php artisan migrate
